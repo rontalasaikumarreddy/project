@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+</head>
+
+<style>
+     body{
+        overflow-x: hidden;
+    } 
+    .nav{
+        display: flex;
+        background-color:black;
+        width: 100%;
+ justify-content: space-evenly;
+         height: 40px;
+          position: fixed; 
+         color: aliceblue;
+         padding: 10px;
+          overflow-x: hidden; 
+         animation: sai 2s infinite;
+         animation-iteration-count: 2s;
+         z-index: 2;
+         
+        
+    }
+    
+    
+    .a1:hover{
+        background-color: aqua;
+        height: 1;
+    }
+    .padding1{
+        color: white;
+        padding-top:300px ;
+        overflow-x: hidden; 
+        animation: kumar 1s linear infinite;
+    }
+    .padding{
+        color: black;
+        padding-top: 50px;
+        margin: 15px;
+        display: flex;
+        justify-content: space-between;
+        animation: kumar 2s linear infinite;
+    
+        
+    }
+    .nav2{padding-top: 100px;
+        background-image: url(istockphoto-1428594094-612x612.jpg);
+    background-position: center;
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+       
+    }
+    
+    
+    .nav3{
+        background-color: black;
+        width: 300px;
+        color: white;
+       animation: sai 4s infinite;
+    }
+    .nav4{
+        font-style: italic;
+        /* max-height: max-content; */
+        width: 800px;
+        line-height: 2;
+        margin-left: 28%;
+         overflow-x: hidden; 
+        text-align: justify;
+        
+
+        
+    }
+    .nav5{
+        font-style: oblique;
+        background-color: antiquewhite;
+        margin-left: 28%;
+        width: 800px;
+        display: flex;
+        
+    }
+    .img1{line-height: 2;
+        margin-left: 28%;
+        width: 800px;
+    }
+    .opening{
+        display:flex;
+        margin-left: 28%;
+    }
+
+    .menu{ 
+        margin-left: 30px;
+        background-color: black;
+        width: 200px;
+        color: white;
+         animation:sai1 2s infinite;
+       
+    }
+    .eat{margin-left: 28%;
+     width: 48%;
+    
+    }
+    .eat1{
+        width: 600px;
+    }
+    .drinks{margin-left: 28%;
+     width: 48%;
+     
+    }
+    .drink2{
+        margin-left: 1%;
+        width:600px ;
+    }
+    .food{
+        background-color:whitesmoke;
+        
+        
+    }
+    .img2{
+        background-image: url(img3.jpg);
+        background-position: center;
+        width: 800px;
+        height: 70vh;
+        background-repeat: no-repeat;
+        margin-left: 28%;
+        margin-right: 50%;
+    
+        
+    }
+    .where{
+        background-color: black;
+        width: 35%;
+        color: white;
+        animation:sai1 2s infinite;
+    }
+    .find{
+        margin-left: 28%;
+        width: 100%;
+    }
+    .fyi{
+        background-color: black;
+        width: 40px;
+        color: white;
+        margin-left: 28%;
+    }
+    
+    .we{
+        margin-left: 28%;
+        width: 800px;
+        text-align: justify;
+    }
+    .reserve{
+        margin-left: 28%;
+        width: 800px;
+        text-align: justify;
+    }
+    .name, .how, .date, .special{ margin-left: 28%;
+        width: 800px;
+       
+    }
+    .send{
+        background-color: black;
+        width: 130px;
+        color: white;
+        margin-left: 28%;
+        animation: sai 2s infinite;
+    }
+   
+    @keyframes sai{
+       0%{
+        background-color: aqua;
+       } 
+       100%{
+        background-color: blue;
+       }
+    }
+    @keyframes kumar{
+        0%{
+          color:whitesmoke; 
+         opacity: 0;
+        }
+        50%{color: red;
+           opacity: 10;
+        }}
+        @keyframes sai1{
+            0%{
+              background-color:rgb(226, 46, 52);  
+            }
+            100%{
+                background-color:palevioletred;
+            }
+            
+        }
+
+    
+    @media only screen and (width<600px){
+        .nav{
+            width: 100% ;
+            color:red ;
+            justify-content: space-around;
+        }
+        .nav2{
+            width: 100%;
+        }
+        .nav4 {
+              margin-left: 1%;
+             width: 560px;
+             font-size: small;
+            
+            
+        }
+        .nav5{
+            margin-left: 1%;
+             width: 560px;
+             font-size: small;
+        }
+        .padding1{
+    padding-left: 10px;
+    padding-top: 80px;
+    
+        }
+        .padding{
+            padding-left: 10px;
+        
+        }
+        .img1 {
+            margin-left: 1%;
+            width: 100%;
+        }
+        .opening, .eat, .drinks, .find, .fyi, .send{
+            margin-left: 1%;
+            display: flex;
+    
+        }
+        .menu, .where{
+            margin-right: 80%;
+        }
+       
+        
+        .img2, .map{
+            margin-left: 1%;
+            width: 100%;
+        
+        }
+        .we{
+        margin-left: 1%;
+        width: 560px;
+       
+    }
+    .reserve{
+        margin-left: 1%;
+        width: 560px;
+    }
+    .name, .how, .date, .special{ margin-left: 1%;
+        width: 500px;
+    
+
+    }
+    .wrap{
+        display: flex;
+    }
+    .wrap2{
+        display: flex;
+    }
+    .we2{
+        display: flex;
+    }
+    .reserve2{
+        display: flex;
+    }
+   
+      }
+   
+       
+</style>
+<body>
+    <div class="nav">
+     <a href="#home" class="a1">HOME</a>
+    <a href="#about" class="a1">ABOUT</a>
+    <a href="#menu" class="a1">MENU</a>
+    <a href="#where" class="a1">WHERE</a></div>
+
+<article id="home">
+    <div class="nav2 animate_animated animate__fadeInLeft">
+       <center> <div class="padding1"><h1>THE<br>CAFE</h1></div></center>
+<div class="padding"><h3>Open from 6am to 5pm</h3><h3>15 Adr street, 5015</h3></div>
+ </div>
+</article>
+       </div>
+
+    
+       <article id="about">
+<div><center><h2 class="nav3">ABOUT THE CAFE</h2></center></div><br><br>
+<div class="wrap"><div class="nav4">The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>
+In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</div></div>
+<div class="wrap2"><div class="nav5"><p>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.<br><br>
+Chef, Coffeeist and Owner: Liam Brown</p></div></div>
+    <div class="img1"><img src="img2.jpg" width="100%"></div>
+    <div class="opening"><h4 class="p">Opening hours:everyday from 6am to 5pm.<br><br>
+ <p> Address: 15 Adr street, 5015, NY</p></article>
+
+  <article id="menu">   
+<center><div class="menu"><h2>THE MENU</h2></div></center>
+
+<div class="food">
+  <div><button class="eat">EAT</button>
+  
+  <div class="eat">
+    <div class="eat1">
+    <h5>Bread Basket</h5>
+    <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+    <h5>Honey Almond Granola with Fruits</h5>
+    <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+  
+    <h5>Belgian Waffle</h5>
+    <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+  
+    <h5>Scrambled eggs</h5>
+    <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+  
+    <h5>Blueberry Pancakes</h5>
+    <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p></div><br>
+  </div>
+  <button class="drinks">DRINKS</button></div>
+    <div class="drinks" >
+        <div class="drink2">
+        <h5>Coffee</h5>
+      <p class="w3-text-grey">Regular coffee 2.50</p><br>
+    
+      <h5>Chocolato</h5>
+      <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>
+    
+      <h5>Corretto</h5>
+      <p class="w3-text-grey">Whiskey and coffee 5.00</p><br>
+    
+      <h5>Iced tea</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+    
+      <h5>Soda</h5>
+      <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
+    </div>
+    </div></div></article>
+
+    
+    <div class="img2"></div>
+    <article id="where">
+  <center><h3 class="where">WHERE TO FIND US</h3></center><br>
+  <h3 class="find"  >Find us at some address at some place.</h3>
+
+  
+  <div class="map"><img src="map1.jpg" width="100%"></div>
+<h3 class="fyi">FYI!</h3>
+ <div class="we2"><h5 class="we">We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</h5></div>
+<div class="reserve2"><h4 class="reserve">Reserve a table, ask for today's special or just send us a message:</h4><br></div>
+
+<input type="text" placeholder="NAME" class="name"><br><br><br>
+<input type="text" placeholder="HOW MANY PEOPLE" class="how"><br><br><br>
+<input type="datetime-local" class="date"><br><br><br>
+<input type="text" placeholder="message/special requirements" class="special"><br><br>
+<div class="send">SEND MESSAGE</div></article><br><br></div>
+
+
+<div >
+   <center> <a href="https://www.w3schools.com/w3css/default.asp" >Powered by w3.css</a></center>
+</div><br><br>
+</body>
+</html>
